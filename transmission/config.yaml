@@ -19,7 +19,7 @@ map:
   - media:rw
   - share:rw
 ports:
-  9091/tcp: null
+  9091/tcp: 9091
   51413/tcp: 51413
   51413/udp: 51413
 image: "ghcr.io/maorcc/{arch}-hassio-addon-transmission"
